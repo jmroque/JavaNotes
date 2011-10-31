@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jnlp spec="1.0+" codebase="http://java.sun.com/developer/technicalArticles/GUI/translucent_shaped_windows/" href="TranslucentShapes.jnlp">
+    <information>
+        <title>TranslucentShapes</title>
+        <vendor>Anthony Petrov @ Sun Microsystems, Inc.</vendor>
+        <description>TranslucentShapes</description>
+        <description kind="short">TranslucentShapes</description>
+        <homepage href=""/>
+        <offline-allowed/>
+    </information>
+    <security>
+        <all-permissions/>
+    </security>
+    <resources>
+        <j2se version="1.6+"/>
+        <jar href="TranslucentShapes.jar" main="true" download="eager"/>
+    </resources>
+    <application-desc main-class="translucentshapes.Main">
+    </application-desc>
+</jnlp>
